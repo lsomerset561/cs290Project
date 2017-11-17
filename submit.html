@@ -78,6 +78,79 @@
 	  </a>
 	</div>
 	
+	<form>
+		<!--business name -->
+		<div class="form-group">
+			<label for="businessName">Business Name</label>
+			<input type="text" class="form-control" id="businessName" placeholder="required" required>
+		</div>
+		<!--business address -->
+		<div class="form-group">
+			<label for="businessAddress">Street Address</label>
+			<input type="text" class="form-control" id="businessAddress" placeholder="required" required>
+		</div>
+		<!--business city -->
+		<div class="form-group">
+			<label for="businessCity">City</label>
+			<select class="form-control" id="businessCity" required>
+				<option disabled selected value>select a city</option>
+				<option>Atlantis</option>
+				<option>Belle Glade</option>
+				<option>Boca Raton</option>
+				<option>Boynton Beach</option>
+				<option>Delray Beach</option>
+				<option>Greenacres</option>
+				<option>Juno Beach</option>
+				<option>Jupiter</option>
+				<option>Lake Park</option>
+				<option>Lake Worth</option>
+				<option>Lantana</option>
+				<option>Loxahatchee</option>
+				<option>Pahokee</option>
+				<option>Palm Beach</option>
+				<option>Palm Beach Gardens</option>
+				<option>Palm Springs</option>
+				<option>Riviera Beach</option>
+				<option>Royal Palm Beach</option>
+				<option>South Bay</option>
+				<option>Wellington</option>
+				<option>Westlake</option>
+				<option>West Palm Beach</option>
+			</select>
+		</div>
+		<!--business phone number -->
+		<div class="form-group">
+			<label for="businessPhone">Phone</label>
+			<input type="tel" class="form-control" id="businessPhone" minlength="12" maxlength="12" placeholder="561-XXX-XXXX" required>
+		</div>
+		<!--business email -->
+		<div class="form-group">
+			<label for="businessEmail">Email</label>
+			<input type="email" class="form-control" id="businessEmail" placeholder="xxx@xxx.com" required>
+		</div>
+		<!--business type -->
+		<div class="form-group">
+			<label for="businessType">Business Type (choose multiple)</label>
+			<select class="form-control" id="businessType" size="4" multiple required>
+				<option>Animal Care</option>
+				<option>Auto Repair</option>
+				<option>Bookstore</option>
+				<option>Charity/Non-Profit</option>
+				<option>Cleaning</option>
+				<option>Electronic</option>
+				<option>Furniture</option>
+				<option>Grocery</option>
+				<option>Home Repair</option>
+				<option>Insurance</option>
+				<option>Medical</option>
+				<option>Musuem</option>	
+				<option>Restaurant</option>
+				<option>Salon</option>				
+			</select>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+	
 	<footer class="footer">
 		<div class="container">
 			<span class="text-muted">By Lindsey Somerset &copy; 2017</span>
