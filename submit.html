@@ -78,16 +78,22 @@
 	  </a>
 	</div>
 	
-	<form>
+	<form class="container" id="needsValidation" novalidate>
 		<!--business name -->
 		<div class="form-group">
 			<label for="businessName">Business Name</label>
 			<input type="text" class="form-control" id="businessName" placeholder="required" required>
+			<div class="invalid-feedback">
+        		Please provide a business name.
+      		</div>
 		</div>
 		<!--business address -->
 		<div class="form-group">
 			<label for="businessAddress">Street Address</label>
 			<input type="text" class="form-control" id="businessAddress" placeholder="required" required>
+			<div class="invalid-feedback">
+        		Please provide an address.
+      		</div>
 		</div>
 		<!--business city -->
 		<div class="form-group">
@@ -117,16 +123,25 @@
 				<option>Westlake</option>
 				<option>West Palm Beach</option>
 			</select>
+			<div class="invalid-feedback">
+        		Please select a city.
+      		</div>
 		</div>
 		<!--business phone number -->
 		<div class="form-group">
 			<label for="businessPhone">Phone</label>
 			<input type="tel" class="form-control" id="businessPhone" minlength="12" maxlength="12" placeholder="561-XXX-XXXX" required>
+			<div class="invalid-feedback">
+        		Please provide a phone number.
+      		</div>
 		</div>
 		<!--business email -->
 		<div class="form-group">
 			<label for="businessEmail">Email</label>
 			<input type="email" class="form-control" id="businessEmail" placeholder="xxx@xxx.com" required>
+			<div class="invalid-feedback">
+        		Please provide a business email.
+      		</div>
 		</div>
 		<!--business type -->
 		<div class="form-group">
@@ -147,6 +162,9 @@
 				<option>Restaurant</option>
 				<option>Salon</option>				
 			</select>
+			<div class="invalid-feedback">
+        		Please select a business type.
+      		</div>
 		</div>
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
@@ -163,5 +181,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<!-- Bootstrap JS -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!-- manual JS/jQuery -->
+	<script src="script.js"></script>
 </body>
 </html>
