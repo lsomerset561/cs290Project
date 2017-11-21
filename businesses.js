@@ -47,6 +47,7 @@ for (var i = 0; i < businesses.length; i++){
 	infoLineMenu.setAttribute("download", "");
 	var infoLineMenuBtn = document.createElement("button");
 	infoLineMenuBtn.setAttribute("type", "submit");
+	infoLineMenuBtn.setAttribute("class", "btn btn-info");
 	var infoLineMenuBtnText = document.createTextNode("Download Menu");
 	infoLineMenuBtn.appendChild(infoLineMenuBtnText);
 	infoLineMenu.appendChild(infoLineMenuBtn);
