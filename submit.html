@@ -23,7 +23,7 @@
 			<a class="nav-link" href="events.html"><img src="/images/calendar.svg" width="100%" alt="EVENTS"></a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link active" href="submit.html"><img src="/images/inbox.svg" width="100%" alt="SUBMIT"></a>
+			<a class="nav-link" href="submit.html"><img src="/images/inbox.svg" width="100%" alt="SUBMIT"></a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="about.html"><img src="/images/person.svg" width="100%" alt="ABOUT"></a>
@@ -69,7 +69,7 @@
 					<img class="d-block w-100 card-img" src="/images/brooke-lark-200721.jpg" alt="Third slide">
 				</div>
 				<div class="card-img-overlay">
-					<span class="card-title">561 BUY POC DIRECTORY</span>
+					<span class="card-title">561 BUY PoC DIRECTORY</span>
 				</div>
 			</div>
 		</div>
@@ -83,11 +83,12 @@
 	  </a>
 	</div>
 	
+	<h2>SUBMIT YOUR BUSINESS</h2>
 	<form class="container" id="needsValidation" novalidate>
 		<!--business name -->
 		<div class="form-group">
 			<label for="businessName">Business Name</label>
-			<input type="text" class="form-control" id="businessName" placeholder="required" required>
+			<input type="text" class="form-control border border-info" id="businessName" placeholder="required" required>
 			<div class="invalid-feedback">
         		Please provide a business name.
       		</div>
@@ -95,7 +96,7 @@
 		<!--business address -->
 		<div class="form-group">
 			<label for="businessAddress">Street Address</label>
-			<input type="text" class="form-control" id="businessAddress" placeholder="required" required>
+			<input type="text" class="form-control border border-info" id="businessAddress" placeholder="required" required>
 			<div class="invalid-feedback">
         		Please provide an address.
       		</div>
@@ -103,7 +104,7 @@
 		<!--business city -->
 		<div class="form-group">
 			<label for="businessCity">City</label>
-			<select class="form-control" id="businessCity" required>
+			<select class="form-control border border-info" id="businessCity" required>
 				<option disabled selected value>select a city</option>
 				<option>Atlantis</option>
 				<option>Belle Glade</option>
@@ -135,7 +136,7 @@
 		<!--business phone number -->
 		<div class="form-group">
 			<label for="businessPhone">Phone</label>
-			<input type="tel" class="form-control" id="businessPhone" minlength="12" maxlength="12" placeholder="XXX-XXX-XXXX" required>
+			<input type="tel" class="form-control border border-info" id="businessPhone" minlength="12" maxlength="12" placeholder="XXX-XXX-XXXX" required>
 			<div class="invalid-feedback">
         		Please provide a phone number.
       		</div>
@@ -143,7 +144,7 @@
 		<!--business email -->
 		<div class="form-group">
 			<label for="businessEmail">Email</label>
-			<input type="email" class="form-control" id="businessEmail" placeholder="xxx@xxx.com" required>
+			<input type="email" class="form-control border border-info" id="businessEmail" placeholder="xxx@xxx.com" required>
 			<div class="invalid-feedback">
         		Please provide a business email.
       		</div>
@@ -151,7 +152,7 @@
 		<!--business type -->
 		<div class="form-group">
 			<label for="businessType">Business Type (choose one)</label>
-			<select class="form-control" id="businessType" size="4" required>
+			<select class="form-control border border-info" id="businessType" size="4" required>
 				<option>Animal Care</option>
 				<option>Auto Repair</option>
 				<option>Bookstore</option>
@@ -170,7 +171,7 @@
         		Please select a business type.
       		</div>
 		</div>
-		<button type="submit" class="btn btn-primary">Submit</button>
+		<button type="submit" class="btn btn-info">Submit</button>
 	</form>
 	
 	<footer class="footer border border-info">
