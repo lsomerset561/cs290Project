@@ -12,9 +12,22 @@ h2 {
 	text-align: center;
 }
 
+.businessCards{
+	float: right;
+	height: 33%;
+	width: 75%;
+	margin: 20px;
+}
+
 .searchLogos{
 	float: left;
-	height: auto;
-	margin: 10px;
-	width: auto;
+	height: 40%;
+	margin-right: 10px;
+	width: 40%;
+}
+
+.searchBusinesses{
+	float: right;
+	height: 50%;
+	width: 50%;
 }
