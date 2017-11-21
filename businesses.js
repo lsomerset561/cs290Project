@@ -13,8 +13,8 @@ function Business(name, address, city, phone, email, type, logo, menu){
 
 var businesses = [
 	new Business("Purple Shrimp", "313 N Sapodilla Ave", "West Palm Beach", "561-386-2303", "thepurpleshrimp@gmail.com", "Restaurant", "/images/purpleShrimp.png", "/files/ThePurpleShrimp_MenuFromGrubHub.pdf"),
-	new Business("Happy Chang", "3897 Haverhill Rd N Ste 124", "West Palm Beach", "561-962-8758", "n/a", "Restaurant", "/images/happychang.jpg", "/files/HappyChang_S_FL_MenuPage.pdf"),
-	new Business("Renaissance Hair Salon", "3897 Haverhill Rd N Ste 125", "West Palm Beach", "561-681-6833", "info@renaissancehaircare.com", "Salon", "/images/renaissance.jpg", "/files/Services_RenaissanceHairCare.pdf"),
+	new Business("Happy Chang", "3897 Haverhill Rd N #124", "West Palm Beach", "561-962-8758", "n/a", "Restaurant", "/images/happychang.jpg", "/files/HappyChang_S_FL_MenuPage.pdf"),
+	new Business("Renaissance Hair Salon", "3897 Haverhill Rd N #125", "West Palm Beach", "561-681-6833", "info@renaissancehaircare.com", "Salon", "/images/renaissance.jpg", "/files/Services_RenaissanceHairCare.pdf"),
 	new Business("Bay Bay's Chicken & Waffles", "326 Congress Ave", "Boynton Beach", "561-364-1187", "n/a", "Restaurant", "/images/baybays.png", "/files/BayBays-Catering.pdf")
 ];
 
@@ -22,14 +22,14 @@ var searchResults = document.getElementById("searchResults");
 
 for (var i = 0; i < businesses.length; i++){
 	var businessCard = document.createElement("div");
-	businessCard.setAttribute("class", "businessCards");
+	businessCard.setAttribute("class", "businessCards row");
 
 	var logo = document.createElement("img");
 	logo.setAttribute("src", businesses[i].logo);
-	logo.setAttribute("class", "searchLogos");
+	logo.setAttribute("class", "searchLogos col-sm-1 offset-md-2 col-md-2 offset-lg-3 col-lg-4");
 
 	var info = document.createElement("div");
-	info.setAttribute("class", "searchBusinesses");
+	info.setAttribute("class", "searchBusinesses col-sm-4 col-md-4 col-lg-4");
 
 	var infoHeader = document.createElement("h5");
 	var infoHeaderText = document.createTextNode(businesses[i].name);

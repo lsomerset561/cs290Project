@@ -22,25 +22,15 @@
 }
 
 h2 {
+	margin-top: 20px;
 	text-align: center;
 }
 
 .businessCards{
-	float: right;
-	height: 33%;
-	width: 75%;
-	margin: 20px;
+	margin-top: 30px;
 }
 
 .searchLogos{
-	float: left;
-	height: 40%;
-	margin-right: 10px;
-	width: 40%;
-}
-
-.searchBusinesses{
-	float: right;
-	height: 50%;
-	width: 50%;
+	max-height: 100%;
+	max-width: 100%;
 }
