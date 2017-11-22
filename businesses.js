@@ -12,10 +12,10 @@ function Business(name, address, city, phone, email, type, logo, menu){
 }
 
 var businesses = [
-	new Business("Purple Shrimp", "313 N Sapodilla Ave", "West Palm Beach", "561-386-2303", "thepurpleshrimp@gmail.com", "Restaurant", "/images/purpleShrimp.png", "/files/ThePurpleShrimp_MenuFromGrubHub.pdf"),
-	new Business("Happy Chang", "3897 Haverhill Rd N #124", "West Palm Beach", "561-962-8758", "n/a", "Restaurant", "/images/happychang.jpg", "/files/HappyChang_S_FL_MenuPage.pdf"),
-	new Business("Renaissance Hair Salon", "3897 Haverhill Rd N #125", "West Palm Beach", "561-681-6833", "info@renaissancehaircare.com", "Salon", "/images/renaissance.jpg", "/files/Services_RenaissanceHairCare.pdf"),
-	new Business("Bay Bay's Chicken & Waffles", "326 Congress Ave", "Boynton Beach", "561-364-1187", "n/a", "Restaurant", "/images/baybays.png", "/files/BayBays-Catering.pdf")
+	new Business("Purple Shrimp", "313 N Sapodilla Ave", "West Palm Beach", "561-386-2303", "thepurpleshrimp@gmail.com", "Restaurant", "images/purpleShrimp.png", "files/ThePurpleShrimp_MenuFromGrubHub.pdf"),
+	new Business("Happy Chang", "3897 Haverhill Rd N #124", "West Palm Beach", "561-962-8758", "n/a", "Restaurant", "images/happychang.jpg", "files/HappyChang_S_FL_MenuPage.pdf"),
+	new Business("Renaissance Hair Salon", "3897 Haverhill Rd N #125", "West Palm Beach", "561-681-6833", "info@renaissancehaircare.com", "Salon", "images/renaissance.jpg", "files/Services_RenaissanceHairCare.pdf"),
+	new Business("Bay Bay's Chicken & Waffles", "326 Congress Ave", "Boynton Beach", "561-364-1187", "n/a", "Restaurant", "images/baybays.png", "files/BayBays-Catering.pdf")
 ];
 
 var searchResults = document.getElementById("searchResults");
